@@ -1,0 +1,199 @@
+//Relational operator.................................
+/*void main()
+{
+  int a=10,b=20;
+  if(a<b)
+  {
+    print("a is small");
+  }
+  else
+  {
+    print(" b is small");
+      
+  }
+}*/
+
+
+/*void main()
+{
+  String name ='niralii';
+  if(name=='nirali')
+  {
+    print("$name");
+  }
+  else
+  {
+    print("wrong");
+  }
+}*/
+
+
+/*void main()
+{
+  double a=5.2,b=5.32;
+  if(a>=b)
+  {
+    print("a is greater");
+  }
+  else
+  {
+    print("b is greater");
+  }
+  
+}*/
+
+/*void main()
+{
+  int a=10,b=12;
+  if(a!=b)
+  {
+    print("not match");
+  }
+  else
+  {
+    print("match");
+  }
+}*/
+/*void main()
+{
+  int a=10,b=10;
+  if(a==b)
+  {
+    print("match");
+  }
+  else
+  {
+    print(" No match");
+  }
+}*/
+
+// assignment............................................
+
+void main()
+{
+  int i,j,k;
+  for(i=1;i<=5;i++)
+  {
+    print("i:$i");
+  }
+  print("\n");
+  for(j=7;j<=15;j+=2)
+  {
+    print("j:$j");
+  }
+  
+}
+// void main() {
+//   for (int i = 0; i < 5; i++) {
+//     print('hello ${i + 1}');
+//   }
+// }
+
+// void main()
+// {
+//   int n,j;
+//   for(n=5;n>=1;n-=2)
+//   {
+//     print("n:$n");
+//   }
+//   print("\n");
+//   for(j=7;j<=15;j+=2)
+//   {
+//     print("j:$j");
+//   }
+
+// }
+
+// void main()
+// {
+//   int n,j;
+//   for(n=5;n>=1;n-=2)
+//   {
+//     print("n:$n");
+//   }
+//   print("\n");
+//   for(j=1;j<10;j*=2)
+//   {
+//     print("j:$j");
+//   }
+
+// }
+
+/*void main() {
+  int a = 10;
+  int b = 5;
+
+  print("a+b = ${a + b}");
+  print("a-b = ${a - b}");
+  print("a*b = ${a * b}");
+  print("a/b = ${a / b}");
+  print("a%b = ${a % b}");
+  print("\n");
+  print("a+=b = ${a += b}");
+  print("a-=b = ${a -= b}");
+  print("a*=b = ${a *= b}");
+//   print("a/=b = ${a/=b}");
+    print("a~/=b = ${a~/=b}");
+  print("a%=b = ${a %= b}");
+}*/
+
+
+
+
+/*class Factory{
+  int colddrinks=1;
+  void bottal()
+  {
+    print("colddrink:$colddrinks");
+  }
+}  
+void main()
+{
+  Factory abc=Factory();
+  abc.bottal();
+  
+}*/
+
+
+/*class student{
+    
+    String stuname="dn";
+    void getstudentname()
+    {
+      print("student name: $stuname");
+    }
+  }
+void main()
+{
+  student studname=student();
+  studname.stuname='nir';
+  studname.getstudentname();
+  
+  studname.stuname='nir1';
+  studname.getstudentname();
+  
+}*/
+
+
+//logical operators
+
+/*void main() {
+  int a = 15, b = 10, c = 12, d = 13;
+
+  if (a > b && c == d) {
+    print("condition true");
+  } else {
+    print("condition false");
+  }
+
+  if (a > b || c != d) {
+    print("condition true");
+  } else {
+    print("condition false");
+  }
+}*/
+void main() {
+  int a = 2, b = 5, c = 7, d = 8;
+  (a > b && c != d) ? print("true") : print("false");
+}
+
